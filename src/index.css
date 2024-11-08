@@ -1,0 +1,88 @@
+.expense-tracker {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: green;
+}
+
+.balance {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.summary {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.summary-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 45%;
+}
+
+.expense {
+  color: red;
+}
+
+.income {
+  color: green;
+}
+
+.transaction-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.transaction-form input, .transaction-form select {
+  padding: 5px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.add-btn {
+  background-color: limegreen;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.transactions {
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+}
+
+.transaction-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.remove-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.search-bar {
+  padding: 10px;
+  font-size: 14px;
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
